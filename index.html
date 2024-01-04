@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube layout</title>
+
+    <!-- Font awsomre link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJopfM4Paa8E4WIL8jNn9dP1w2h" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/029c9820bf.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            border: 2px solid black;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+
+        .card-1{
+            margin-bottom: 10px;
+            height: 199px;
+            width: 320px;
+            cursor: pointer;
+            padding-bottom: 60px;
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .image-container {
+            position: relative;
+            text-align: center;
+        }
+
+        .watch-time {
+            position: absolute;
+            right: 0;
+            color: white;
+            width: 40px;
+            background-color: black;
+            bottom: 10px;
+        }
+
+        .image:hover {
+            opacity: 0.5;
+        }
+
+        /* Teasting position*/
+        .parent-position {
+            position: relative;
+            text-align: center;
+            height: 199px;
+            width: 320px;
+            border: 2PX solid black;
+
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+
+        .child-position {
+            bottom: 10px;
+            right: 0px;
+            position: absolute;
+            background-color: black;
+            color: white;
+        }
+
+        /* Logos section */
+        .logo-container {
+            height: 36px;
+            width: 36px;
+            margin: 5px;
+            float: left;
+        }
+
+        .logo-image {
+            height: 101%;
+            width: 100%;
+            border-radius: 50%
+        }
+
+        .text{
+          
+        } 
+
+        .content-heading {
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.5rem;
+            font-weight: 500;
+            max-height: 4rem;
+            margin-bottom: -0.5rem;
+        }
+
+        .page-name,
+        .video-history {
+            margin: 5px 5px 5px 46px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color: rgb(96, 96, 96);
+            line-height: 12px;
+        }
+        .text{
+            cursor: default;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="parent-position">
+        <img class="image" src="/image12.webp" alt="">
+        <div class="child-position">
+            19:00
+        </div>
+    </div>
+    </div>
+    <div class="logo-container">
+        <img class="logo-image" src="/img9.webp" alt="">
+    </div>
+
+    <div class="text">
+        <div class="content-heading">
+            <p>Largest Oil Rig Manufacture and <br> Transport</p>
+        </div>
+        <div class="page-name">
+            <p>Transport <i class="fa-solid fa-circle-check "></i></p>
+        </div>
+        <div class="video-history">
+            <p>1.9M views &#x2022 1 month ago</p>
+        </div>
+    </div>
+
+    </div> -->
+
+    <!--MAIN WORK-->
+
+    <div class="container">
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/ship.webp" alt="image-2">
+                </div>
+                <div class="watch-time">
+                    17:00
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/shiplogo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>Largest Oil Rig Manufacture and <br> Transport</p>
+                </div>
+                <div class="page-name">
+                    <p>Zemtv <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img1.jpg" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    10:20
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/harry logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>CSS Tutorial: Media Queries Explained <br>| Web Development Tutorials #30</p>
+                </div>
+                <div class="page-name">
+                    <p>CodeWithHarry <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/ship.webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    10:30
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/emirateslogo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>CSS Tutorial: Media Queries Explained <br> Transport</p>
+                </div>
+                <div class="page-name">
+                    <p>Ismal Kaleem <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img11).webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    12:40
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/suffah logo.jpg" alt="">
+            </div>
+            <div class="text">
+                <div class="content-heading">
+                    <p>Web/App | Complete HTML in One <br>Video | HTML Crash Course</p>
+                </div>
+                <div class="page-name">
+                    <p>SuffahComputer <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img13.webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    09:10
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/harry logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>Reason Why People Fail <br>Learning To Code!</p>
+                </div>
+                <div class="page-name">
+                    <p>CodeWithHarry <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/mobiles.webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    08:20
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/techburner-logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>My Dream Project is Finally Here <br>! *Layers.shop*</p>
+                </div>
+                <div class="page-name">
+                    <p>Tech Burner <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img3 (1).webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    09:15
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/blackhole-logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>FINALLY HAPPENED! NASA Captures<br>First SOUND of BLACKHOLE</p>
+                </div>
+                <div class="page-name">
+                    <p>GetsetflySCIENCE<i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img4.webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    08:55
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/emirateslogo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>FULL FILM: McLaren Speedtail vs<br>F35 Fighter Jet | Top Gear</p>
+                </div>
+                <div class="page-name">
+                    <p>TopGear <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img5 (1).webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    07:15
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/smooth logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>Smooth Scroll and Nav menu in<br>HTML CSS JS only</p>
+                </div>
+                <div class="page-name">
+                    <p>Online web ustaad<i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img6.webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    09:12
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/suffah logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>Web/App | Complete HTML in One<br>Video | HTML Crash Course</p>
+                </div>
+                <div class="page-name">
+                    <p>SuffahComputer <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/img7.webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    08:00
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/harry logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>Reason Why People Fail<br>Learning To Code!</p>
+                </div>
+                <div class="page-name">
+                    <p>CodeWithHarry <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        <div class="card-1">
+            <div class="image-container">
+                <div class="image-div">
+                    <img class="image" src="./image/mobiles.webp" alt="image-1">
+                </div>
+                <div class="watch-time">
+                    09:59
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo-image" src="./image/techburner-logo.jpg" alt="">
+            </div>
+        
+            <div class="text">
+                <div class="content-heading">
+                    <p>My Dream Project is Finally Here<br>! *Layers.shop*</p>
+                </div>
+                <div class="page-name">
+                    <p>Tech Burner <i class="fa-solid fa-circle-check "></i></p>
+                </div>
+                <div class="video-history">
+                    <p>1.9M views &#x2022 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        
+        
+</body>
+
+</html>
